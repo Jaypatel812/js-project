@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #131313;
+}
+.myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.currency-counter-wrapper h1 {
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container form {
+  padding: 25px;
+  box-shadow: 0 0 20px rgb(73, 65, 188);
+  border-radius: 10px;
+}
+
+.container form .row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container form .row > * {
+  flex: 1;
+}
+
+.note-wrapper {
+  width: 200px;
+}
+
+.note-wrapper > img {
+  height: 50px;
+  object-fit: contain;
+}
+
+.note-numbers input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(0, 81, 255);
+  border-radius: 10px;
+  outline: none;
+}
+
+.per-note-value {
+  font-size: 20px;
+  margin-left: 10px;
+  background-color: rgb(0, 255, 34);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.ans-container {
+  margin-top: 20px;
+}
+
+.ans-container h2 {
+  padding: 10px;
+}
